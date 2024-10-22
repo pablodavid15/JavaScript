@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body { 
+    background-color: rgb(19, 109, 109);
+    font: 12pt Arial;
+    color: whitesmoke;
+}
+
+h1, h2, h3, p { 
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+button {
+    
+    background-color: rgba(127, 255, 138, 0.61);
+    color: whitesmoke;
+    font-size: 12pt; 
+    padding: 30px; 
+    border-radius: 25%;
+
+}
