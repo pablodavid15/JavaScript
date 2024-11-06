@@ -61,7 +61,30 @@ function acao5(){
 }
 
 function acao6(){
-    resp.innerHTML += '<p>Clicou 6º botão</p>'
+    resp.innerHTML += '<p>Clicou no 6º botão</p>'
 
-    
+    let myArray = [1,2,3,4,5,6,7,8,9,10,11]
+
+    myArray.forEach(function(value, key){
+        resp.innerHTML += `<p>Chave: ${key} Valor: ${value} <br></p>`
+    }) 
+}
+
+function acao7() {
+
+    let entrada = 'Bem-vindo' + prompt('Digite o seu nome:')
+    let saldacao = document.getElementById('titulo')
+    saldacao.textContent = entrada
+    const collection = document.getElementsByName("animal")
+    for (let i = 0; i < collection.length; i++) {
+        if (collection[i].type == "checkbox"){
+            collection[i].checked = true
+        }
+    }
+
+    resp.innerHTML += '<p>Clicou no 7º botão</p>'
+    document.getElementsByClassName("p")[i].innerHTML = 'Texto do paragrafo 2 substuido com sucesso!'
+    let teste = document.getElementsByClassName('paragrafo')
+    teste[i].textContent = 'Texto do paragrafo idendificado por "paragrafo" 1, substuido com sucesso'
+
 }
